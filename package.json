@@ -1,0 +1,38 @@
+{
+  "name": "dsh-jlu-baixiaosheng",
+  "version": "1.7.4",
+  "description": "Jilin University knowledge base skill for DeepSeek Harness: major transfer, curricula, postgraduate recommendation, campus network, exams and freshman life, bundled as 38 reference documents.",
+  "license": "MIT",
+  "type": "module",
+  "main": "index.js",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "jlu",
+    "skill",
+    "knowledge-base"
+  ],
+  "files": [
+    "index.js",
+    "SKILL.md",
+    "references",
+    "cordis.patch.yml",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WilliamWang6586/dsh-jlu-baixiaosheng.git"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "scripts": {
+    "test": "node index.js --selftest"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
