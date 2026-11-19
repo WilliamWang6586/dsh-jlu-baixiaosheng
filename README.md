@@ -2,6 +2,8 @@
 
 吉林大学百晓生知识库 · DeepSeek Harness 插件。把 38 篇实测参考资料（转专业/培养方案/保研/选课/校园网/考试/竞赛车队/新生生活等）作为一个技能注册进 DSH 技能目录，模型问到吉大相关问题时自动加载，也可 `/jlu-baixiaosheng` 手动调用。
 
+> 📎 本插件是主知识库项目 [JLU-xinshengbaixiaosheng](https://github.com/WilliamWang6586/JLU-xinshengbaixiaosheng) 的 DSH 分发形态，内容同源、版本同步；主项目已把本仓库挂为 submodule（`dsh-jlu-baixiaosheng/` 目录）。非 DSH 用户（Hermes / Claude Code 等）请直接使用主项目。
+
 纯数据插件：不联网、不起子进程、不读写你的任何文件，只随包提供 Markdown/txt 参考文档。
 
 ## 安装
